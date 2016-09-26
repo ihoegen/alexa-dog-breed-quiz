@@ -45,22 +45,22 @@ var visited;
 var welcomeMessage = "Welcome to dog breed picker, are you ready to play?";
 
 // This is the message that is repeated if the response to the initial welcome message is not heard
-var repeatWelcomeMessage = "Say yes to start the game or no to quit.";
+var repeatWelcomeMessage = "Say yes to start the quiz or no to quit.";
 
 // this is the message that is repeated if Alexa does not hear/understand the reponse to the welcome message
-var promptToStartMessage = "Say yes to continue, or no to end the game.";
+var promptToStartMessage = "Say yes to continue, or no to end the quiz.";
 
 // This is the prompt during the game when Alexa doesnt hear or understand a yes / no reply
 var promptToSayYesNo = "Say yes or no to answer the question.";
 
 // This is the response to the user after the final question when Alex decides on what group choice the user should be given
-var decisionMessage = "I think you would make a good";
+var decisionMessage = "I think you should get a";
 
 // This is the prompt to ask the user if they would like to hear a short description of thier chosen profession or to play again
-var playAgainMessage = "Say 'tell me more' to hear a short description for this profession, or do you want to play again?";
+var playAgainMessage = "Say 'tell me more' to hear a short description for this dog breed, or do you want to play again?";
 
 // this is the help message during the setup at the beginning of the game
-var helpMessage = "I will ask you some questions that will identify what you would be best at. Want to start now?";
+var helpMessage = "I will ask you some questions that will identify what dog breed you should get. Want to start now?";
 
 // This is the goodbye message when the user has asked to quit the game
 var goodbyeMessage = "Ok, see you next time!";
